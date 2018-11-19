@@ -30,7 +30,7 @@ window.addEventListener("load", function() {
         		});
 
         		myMap.geoObjects.add(myPlacemark);
-    		}
+    		};
 
     		let error = (err) => {
     			if (err.code === 1) {
